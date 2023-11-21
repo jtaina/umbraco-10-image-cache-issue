@@ -1,0 +1,16 @@
+{
+  "Name": "Repro Content Page",
+  "Alias": "ReproContentPage",
+  "File": "umb://template-file/ReproContentPage.cshtml",
+  "Master": null,
+  "Udi": "umb://template/7bd2e4d4a1144c719134a89e3cfd56ee",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/ReproContentPage.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.TemplateArtifact",
+  "__version": "10.2.7"
+}

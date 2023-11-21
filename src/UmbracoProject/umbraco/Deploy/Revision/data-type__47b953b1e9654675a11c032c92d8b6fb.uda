@@ -1,0 +1,24 @@
+{
+  "Name": "Contacts - ContactsList - Nested Content",
+  "Alias": "",
+  "EditorAlias": "Umbraco.NestedContent",
+  "DatabaseType": 0,
+  "Configuration": {
+    "contentTypes": [
+      {
+        "ncAlias": "person",
+        "ncTabAlias": "Info",
+        "nameTemplate": "{{ contactName }}"
+      }
+    ],
+    "confirmDeletes": true,
+    "showIcons": true,
+    "expandsOnLoad": true,
+    "hideLabel": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/47b953b1e9654675a11c032c92d8b6fb",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "10.2.4"
+}

@@ -1,0 +1,143 @@
+{
+  "Name": "Footer - Grid layout",
+  "Alias": "",
+  "EditorAlias": "Umbraco.Grid",
+  "DatabaseType": 0,
+  "Configuration": {
+    "items": {
+      "styles": [
+        {
+          "label": "Set a background image",
+          "description": "Set a row background",
+          "key": "background-image",
+          "view": "imagepicker",
+          "modifier": "url({0})"
+        }
+      ],
+      "config": [
+        {
+          "label": "Class",
+          "description": "Set a css class",
+          "key": "class",
+          "view": "textstring"
+        }
+      ],
+      "columns": 12,
+      "templates": [
+        {
+          "name": "1 column layout",
+          "sections": [
+            {
+              "grid": 12
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        {
+          "name": "Three Columns",
+          "areas": [
+            {
+              "grid": 4,
+              "allowAll": false,
+              "allowed": [
+                "rte"
+              ],
+              "maxItems": 1
+            },
+            {
+              "grid": 4,
+              "allowAll": false,
+              "allowed": [
+                "rte"
+              ],
+              "maxItems": 1
+            },
+            {
+              "grid": 4,
+              "allowAll": false,
+              "maxItems": 1,
+              "allowed": [
+                "rte"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Four Columns",
+          "areas": [
+            {
+              "grid": 3,
+              "allowAll": false,
+              "allowed": [
+                "rte"
+              ],
+              "maxItems": 1
+            },
+            {
+              "grid": 3,
+              "allowAll": false,
+              "allowed": [
+                "rte"
+              ],
+              "maxItems": 1
+            },
+            {
+              "grid": 3,
+              "allowAll": false,
+              "allowed": [
+                "rte"
+              ],
+              "maxItems": 1
+            },
+            {
+              "grid": 3,
+              "allowAll": false,
+              "allowed": [
+                "rte"
+              ],
+              "maxItems": 1
+            }
+          ]
+        }
+      ]
+    },
+    "rte": {
+      "toolbar": [
+        "ace",
+        "styleselect",
+        "bold",
+        "italic",
+        "alignleft",
+        "aligncenter",
+        "alignright",
+        "bullist",
+        "numlist",
+        "outdent",
+        "indent",
+        "link",
+        "umbmediapicker",
+        "umbmacro",
+        "umbembeddialog",
+        "fullscreen"
+      ],
+      "stylesheets": [
+        "/css/RTE-default.css"
+      ],
+      "maxImageSize": 500,
+      "mode": "classic"
+    },
+    "ignoreUserStartNodes": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/2f4a2b5bf7fe42428acb6a41d272f2ad",
+  "Dependencies": [
+    {
+      "Udi": "umb://stylesheet/RTE-default.css",
+      "Ordering": false,
+      "Mode": 1
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "10.2.4"
+}

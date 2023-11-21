@@ -1,0 +1,23 @@
+{
+  "Name": "Frontpage - Font - Radio button list",
+  "Alias": "",
+  "EditorAlias": "Umbraco.RadioButtonList",
+  "DatabaseType": 1,
+  "Configuration": {
+    "items": [
+      {
+        "id": 1,
+        "value": "standard"
+      },
+      {
+        "id": 2,
+        "value": "seriff"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/ccaffccca82d427cafa2e3313d80ccbc",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "10.2.4"
+}

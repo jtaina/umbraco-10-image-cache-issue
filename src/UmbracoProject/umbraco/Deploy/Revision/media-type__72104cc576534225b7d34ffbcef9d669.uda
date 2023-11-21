@@ -1,0 +1,57 @@
+{
+  "Name": "External Document",
+  "Alias": "externalDocument",
+  "Icon": "icon-document-dashed-line color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": null,
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "f7e512cd-482c-4ad0-ad55-ed8e0220d06d",
+      "Name": "Document",
+      "SortOrder": 0,
+      "Type": 0,
+      "Alias": "document",
+      "PropertyTypes": [
+        {
+          "Key": "c07f8a2e-bc92-4035-a7b9-e2ddf6464d45",
+          "Alias": "location",
+          "DataType": "umb://data-type/1487bacdea3646ea91310916a0294424",
+          "Description": null,
+          "Mandatory": true,
+          "MandatoryMessage": null,
+          "Name": "Location",
+          "SortOrder": 0,
+          "Validation": "https?://[a-zA-Z0-9-.]+.[a-zA-Z]{2,}",
+          "ValidationMessage": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://media-type/72104cc576534225b7d34ffbcef9d669",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/1487bacdea3646ea91310916a0294424",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.MediaTypeArtifact",
+  "__version": "10.2.7"
+}

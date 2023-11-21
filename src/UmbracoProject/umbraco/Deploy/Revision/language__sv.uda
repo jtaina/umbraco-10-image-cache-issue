@@ -1,0 +1,12 @@
+{
+  "Name": "Swedish",
+  "Alias": "sv",
+  "IsoCode": "sv",
+  "IsDefault": false,
+  "IsMandatory": false,
+  "FallbackLanguageIsoCode": "en-US",
+  "Udi": "umb://language/sv",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.LanguageArtifact",
+  "__version": "10.2.4"
+}

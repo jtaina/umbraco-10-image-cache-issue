@@ -1,0 +1,32 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.ReproContentPage>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+
+@{
+  Layout = "repromaster.cshtml";
+  var image = Model.ContentImage as IPublishedContent;
+  var imageCrop = (string)Model.Value("imageCrop"); // Either "Small" or "Large";
+}
+
+<div class="content-page-container">
+  <h1>@Model.Title</h1>
+  <img src='@image.GetCropUrl(@imageCrop)' class="@imageCrop">
+  <p>@Model.TextContent</p>
+  <hr>
+  <ul>
+    <li><a href="@Model.Root().Url()">Root Page</a></li>
+    <li><a href="@Model.Root().Children().FirstOrDefault().Url()">Content page with large image</a></li>
+  </ul>
+</div>
+
+<style>
+  .Small {
+    width: 160px;
+    height: 160px;
+  }
+
+  .Large {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+  }
+</style>

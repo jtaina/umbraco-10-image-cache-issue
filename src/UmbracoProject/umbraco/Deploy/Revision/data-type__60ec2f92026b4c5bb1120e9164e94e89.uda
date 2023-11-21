@@ -1,0 +1,17 @@
+{
+  "Name": "Design - Sub Page Logo - Media Picker",
+  "Alias": "",
+  "EditorAlias": "Umbraco.MediaPicker",
+  "DatabaseType": 0,
+  "Configuration": {
+    "multiPicker": false,
+    "onlyImages": true,
+    "disableFolderSelect": false,
+    "ignoreUserStartNodes": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/60ec2f92026b4c5bb1120e9164e94e89",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "10.2.4"
+}

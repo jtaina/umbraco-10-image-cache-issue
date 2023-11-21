@@ -1,0 +1,18 @@
+{
+  "Name": "Attachments - File - Media Picker",
+  "Alias": "",
+  "EditorAlias": "Umbraco.MediaPicker",
+  "DatabaseType": 0,
+  "Configuration": {
+    "multiPicker": false,
+    "onlyImages": false,
+    "disableFolderSelect": false,
+    "startNodeId": "umb://media/6ed6cf21e1d2408396d0e8282a1f949b",
+    "ignoreUserStartNodes": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/367adf3af4844855a729d84411ddd847",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "10.2.4"
+}

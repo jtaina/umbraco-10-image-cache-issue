@@ -1,0 +1,21 @@
+{
+  "Name": "Contacts - PersonList - Multinode Treepicker",
+  "Alias": "",
+  "EditorAlias": "Umbraco.MultiNodeTreePicker",
+  "DatabaseType": 0,
+  "Configuration": {
+    "startNode": {
+      "type": "content",
+      "id": "umb://document/271703b9ac164a75988eb97a3b9bcc3a"
+    },
+    "minNumber": 0,
+    "maxNumber": 0,
+    "showOpenButton": false,
+    "ignoreUserStartNodes": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/bf9d6b67d79a41439900c0b7da115951",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "10.2.4"
+}

@@ -1,0 +1,21 @@
+{
+  "Deploy": {
+    "Project": {
+      "Name": "image-cache-issue-repro",
+      "Alias": "image-cache-issue-repro",
+      "Id": "abababab-abab-abab-abab-abababababab",
+      "Workspaces": [
+
+      ]
+    },
+    "Settings": {
+      "ApiKey": "<ApiKey>"
+    }
+  },
+  "Identity": {
+    "ClientId": "<ClientId>",
+    "ClientSecret": "<ClientSecret>",
+    "EnvironmentId": "<EnvironmentId>",
+    "LocalLoginRedirectUri": "https://redirect.identity.umbraco.com"
+  }
+}

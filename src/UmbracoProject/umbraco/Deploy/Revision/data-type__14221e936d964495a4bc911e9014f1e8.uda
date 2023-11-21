@@ -1,0 +1,39 @@
+{
+  "Name": "Country of Residence",
+  "Alias": "",
+  "EditorAlias": "Umbraco.CheckBoxList",
+  "DatabaseType": 1,
+  "Configuration": {
+    "items": [
+      {
+        "id": 1,
+        "value": "Sweden"
+      },
+      {
+        "id": 2,
+        "value": "Norway"
+      },
+      {
+        "id": 3,
+        "value": "Denmark"
+      },
+      {
+        "id": 4,
+        "value": "Germany"
+      },
+      {
+        "id": 6,
+        "value": "Luxembourg"
+      },
+      {
+        "id": 5,
+        "value": "Other"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/14221e936d964495a4bc911e9014f1e8",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "10.2.4"
+}

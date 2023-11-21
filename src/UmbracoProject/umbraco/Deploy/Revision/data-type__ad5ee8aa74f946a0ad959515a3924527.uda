@@ -1,0 +1,17 @@
+{
+  "Name": "Design - Home Page Logo - Media Picker",
+  "Alias": "",
+  "EditorAlias": "Umbraco.MediaPicker",
+  "DatabaseType": 0,
+  "Configuration": {
+    "multiPicker": false,
+    "onlyImages": true,
+    "disableFolderSelect": false,
+    "ignoreUserStartNodes": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/ad5ee8aa74f946a0ad959515a3924527",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "10.2.4"
+}

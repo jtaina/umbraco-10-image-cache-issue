@@ -1,0 +1,19 @@
+{
+  "Name": "Frontpage - Color Theme - Radio button list",
+  "Alias": "",
+  "EditorAlias": "Umbraco.RadioButtonList",
+  "DatabaseType": 1,
+  "Configuration": {
+    "items": [
+      {
+        "id": 1,
+        "value": "ub"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/b3da7f6e3d8143069f41ca691a8cde54",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "10.2.4"
+}

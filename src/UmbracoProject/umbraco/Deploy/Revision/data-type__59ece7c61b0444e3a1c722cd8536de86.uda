@@ -1,0 +1,29 @@
+{
+  "Name": "Basic Content - BasicContentNestedContent - Nested Content",
+  "Alias": "",
+  "EditorAlias": "Umbraco.NestedContent",
+  "DatabaseType": 0,
+  "Configuration": {
+    "contentTypes": [
+      {
+        "ncAlias": "richtextEditor",
+        "ncTabAlias": "RichtTextContent",
+        "nameTemplate": "{{rteContent}}"
+      },
+      {
+        "ncAlias": "gridBasic",
+        "ncTabAlias": "Grid Content",
+        "nameTemplate": ""
+      }
+    ],
+    "confirmDeletes": true,
+    "showIcons": true,
+    "expandsOnLoad": true,
+    "hideLabel": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/59ece7c61b0444e3a1c722cd8536de86",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "10.2.4"
+}

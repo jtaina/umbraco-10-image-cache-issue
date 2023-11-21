@@ -1,0 +1,55 @@
+{
+  "Name": "Image Cropper",
+  "Alias": "",
+  "EditorAlias": "Umbraco.ImageCropper",
+  "DatabaseType": 0,
+  "Configuration": {
+    "crops": [
+      {
+        "alias": "Front-page-Hero-Banner",
+        "width": 575,
+        "height": 500
+      },
+      {
+        "alias": "Front-page-highlight-small",
+        "width": 329,
+        "height": 250
+      },
+      {
+        "alias": "Front-page-highlight-large",
+        "width": 460,
+        "height": 250
+      },
+      {
+        "alias": "Front-page-highlight-mobile",
+        "width": 540,
+        "height": 320
+      },
+      {
+        "alias": "Quote-Square-Small",
+        "width": 160,
+        "height": 160
+      },
+      {
+        "alias": "Contact-image-120x120",
+        "width": 120,
+        "height": 120
+      },
+      {
+        "alias": "Large",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "alias": "Small",
+        "width": 160,
+        "height": 160
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/1df9f033e6d4451fb8d2e0cbc50a836f",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "10.2.7"
+}

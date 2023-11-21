@@ -1,0 +1,22 @@
+{
+  "Name": "Person - Group - Content Picker",
+  "Alias": "",
+  "EditorAlias": "Umbraco.ContentPicker",
+  "DatabaseType": 1,
+  "Configuration": {
+    "showOpenButton": false,
+    "startNodeId": "umb://document/e91a596eea04456188ad0935aee5724c",
+    "ignoreUserStartNodes": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/be9a9a8d341e47bea1a4853178976279",
+  "Dependencies": [
+    {
+      "Udi": "umb://document/e91a596eea04456188ad0935aee5724c",
+      "Ordering": false,
+      "Mode": 1
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "10.2.4"
+}
