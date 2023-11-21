@@ -392,7 +392,7 @@ healthchecksdb
 
 # Umbraco Media Files
 # Media is transfered via Deploy as content
-**/wwwroot/media
+# **/wwwroot/media
 
 # Umbraco Models Builder out of date flag file
 **/umbraco/models/ood.flag
